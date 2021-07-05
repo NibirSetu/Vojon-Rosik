@@ -1,3 +1,54 @@
 body {
-  background-color: blueviolet;
+  background-color: rgb(255, 255, 255);
+  font-family: "Domine", serif;
+  margin: 0px;
+}
+
+.orange-color {
+  color: rgb(238, 80, 23);
+}
+
+.top-width {
+  width: 50%;
+  padding-left: 10%;
+}
+.top-width img {
+  width: 80%;
+}
+
+.top-banner {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.top-container {
+  display: flex;
+  margin-bottom: 200px;
+}
+
+.order-button {
+  text-decoration: none;
+  margin-top: 15px;
+  background-image: linear-gradient(orange, rgb(231, 75, 47));
+  padding: 5px 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px 0.5px rgba(233, 145, 46, 0.726);
+}
+
+h1 {
+  font-size: 4vw;
+  font-weight: 700;
+  color: rgb(53, 53, 59);
+}
+h2 {
+  font-size: 3vw;
+}
+p {
+  font-size: 2vw;
+  color: rgb(78, 82, 85);
 }
