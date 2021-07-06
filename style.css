@@ -89,6 +89,35 @@ p {
   font-size: 4vw;
 }
 
+#mid-div-recipie {
+  max-width: 50%;
+}
+
+#recipie-intro {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 7%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boot-style {
+  width: 50%;
+  height: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 40px gray;
+}
+
+.food-item img {
+  width: 90%;
+  height: 50%;
+  border-radius: 10%;
+  padding: 5%;
+}
+
 .footer {
   background-color: rgb(22, 21, 21);
   padding: 1%;
@@ -102,14 +131,4 @@ p {
 #footer-license {
   text-align: center;
   color: rgb(227, 230, 233);
-}
-
-.experience-item {
-  width: 50%;
-  height: 50%;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding: 10px;
-  border-radius: 10px;
-  box-shadow: 10px 10px 40px gray;
 }
