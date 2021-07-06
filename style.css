@@ -131,18 +131,20 @@ p {
 }
 
 .social-media {
-  width: 90%;
+  width: 88%;
   height: 30%;
   margin-left: 5%;
   margin-right: 5%;
+  margin-top: 100px;
+  margin-bottom: 100px;
   padding: 10px;
   border-radius: 20px;
   box-shadow: 10px 10px 40px 1px rgb(165, 160, 160);
-  margin-top: 50px;
-  margin-bottom: 50px;
   display: flex;
   padding-left: 20px;
   font-weight: 900;
+  padding-top: 20px;
+  padding-bottom: 0;
 }
 
 .youtube {
@@ -150,19 +152,30 @@ p {
   padding-right: 80px;
   text-align: center;
 }
+.youtube img {
+  width: 50%;
+}
 
 .insta {
   padding: 15px;
   padding-right: 80px;
   text-align: center;
-  padding-left: 15%;
+  padding-left: 17%;
+}
+
+.insta img {
+  width: 45%;
 }
 
 .facebook {
   padding: 15px;
   padding-left: 15%;
-  padding-right: 80px;
+  padding-right: 75px;
   text-align: center;
+}
+
+.facebook img {
+  width: 27%;
 }
 
 .footer {
