@@ -90,7 +90,7 @@ p {
 }
 
 #mid-div-recipie {
-  max-width: 50%;
+  max-width: 60%;
 }
 
 #recipie-intro {
@@ -108,7 +108,7 @@ p {
   margin-right: 5%;
   padding: 10px;
   border-radius: 20px;
-  box-shadow: 10px 10px 40px gray;
+  box-shadow: 10px 10px 40px 2px rgb(160, 158, 158);
 }
 
 #item1 {
@@ -145,6 +145,10 @@ p {
   font-weight: 900;
   padding-top: 20px;
   padding-bottom: 0;
+}
+
+.checked {
+  color: orange;
 }
 
 .youtube {
